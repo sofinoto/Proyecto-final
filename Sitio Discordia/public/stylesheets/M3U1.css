@@ -1,0 +1,298 @@
+/*
+font-family: 'Oswald', sans-serif;
+*/
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: black;
+}
+
+header{
+    background-color: rgb(5, 5, 8);
+    /* padding: 2px 0; */
+    width: 100%;
+    height: 80px;
+
+}
+
+header img{
+    margin-top: 10px;
+}
+
+header h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    margin-left: 10px;
+    margin top: 5px;
+}
+
+nav{
+    background-color: rgb(245, 208, 2);
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: rgb(12, 12, 12);
+    text-decoration: dashed;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 10px;
+    width: 100;
+    height: 40px;
+}
+
+nav ul li a.activo{
+    background-color: #868677;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: white;
+    font-weight: 400;
+    margin-left: 27%;
+    margin-top: 30px;
+}
+
+h2.blanco{
+    color: white;
+    font-weight: 400;
+}
+
+
+/* inicio home */
+.homeimg img{
+    position: relative;
+    display: flex;
+    /* padding-left: %;  */
+    border-radius: 10%;
+    
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+
+.columnas{
+    display: flex;
+    align-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    margin-top: 40px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+}
+
+/* fin home */
+
+/* inicio nosotros */
+
+.historia h2{
+    text-align: center;
+    padding-right: 29%;
+}
+
+.staff h2{
+    text-align: center;
+    padding-right: 29%;
+}
+
+.historia p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    }
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    /* background-color: orange; */
+}
+
+.persona img {
+    border-radius: 40%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+}
+
+.persona h4 {
+    color: rgb(245, 208, 2);
+   padding-top: 10px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.persona h5 {
+    color: rgb(245, 208, 2);
+    margin: 0;
+    font-weight: normal;
+    font-size: 19px;
+
+} 
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: white;
+    font-size: 13px;
+    padding-top: 5px
+}
+
+.persona h5{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.persona p{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 00.5px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+
+/* fin nosotros */
+
+/* inicio servicios*/
+.servicio{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+main h2{
+    text-align: center;
+    padding-right: 29%;
+}
+.servicio .info h4{
+    color: rgb(245, 208, 2);
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid rgb(245, 208, 2);
+    padding-bottom: 10px;
+}
+
+.servicio .info p{
+    font-size: 13px;
+    line-height: 19px;
+    color: white;
+}
+
+.servicio img{
+    border-radius: 100px;
+    display: block;
+    max-width: 150px;
+}
+/* 
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+} */
+
+/* fin servicios */ 
+
+/* inicio contacto */
+
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.contacto h3{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.contacto p{
+    color: white;
+
+}
+
+.contacto ul li{
+    color: white;
+    line-height: 30px;
+}
+
+.formulario p label{
+    display: flex;
+    min-width: 80px;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 6px 10px;
+}
+
+.formulario input[type="submit"] {
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.4);
+    color: black;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    /* position: relative; */
+    left: 5rem;
+    cursor: pointer;
+}
+/* fin contacto */

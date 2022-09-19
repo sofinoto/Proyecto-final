@@ -1,0 +1,43 @@
+<main class="holder contacto">
+    <div>
+        <h3>Contacto rápido</h3>
+        <form action="/contacto" method="post" class="formulario">
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" name="email">
+            </p>
+            <p>
+                <label for="telefono">Teléfono</label>
+                <input type="text" name="telefono">
+            </p>
+            <p>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje"></textarea>
+            </p>
+            <p class="acciones"><input type="submit" value="Enviar" /></p>
+        </form>
+        <p>{{message}}</p>
+    </div>
+    <div class="datos">
+        <h3>Otras vias de comunicacion</h3>
+        <p>Tambien podes contactarte con nosotros mediante:</p>
+        <ul>
+            <li>Telefono: 123456789</li>
+            <li>Email: discordiacervezaartesanal@gmail.com</li>
+            <li>Instagram:
+                <link rel="stylesheet" href="https://www.instagram.com/discordiacervezaartesanal/">
+                .discordiacervezaartesanal
+            </li>
+            <li>Facebook:
+                <link rel="stylesheet" href="https://www.facebook.com/profile.php?id=100064178528152&sk=photos">
+                Discordia
+                Cerveza Artesanal
+            </li>
+        </ul>
+
+    </div>
+</main>

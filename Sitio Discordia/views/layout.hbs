@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discordia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/M3U1.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="holder">
+            <img src="images/LOGO VECTOR BLANCO .png" width="100" height="100" alt="Discordia"> 
+            <h1>CERVEZA ARTESANAL</h1>
+        </div>
+    </header>
+    <nav>
+        <ul  class="holder">
+            <li><a class="{{#if isHome}}activo{{/if}}" href="/">Home</a></li>
+            <li><a class="{{#if isNosotros}}activo{{/if}}" href="/nosotros">Nosotros</a></li>
+            <li><a class="{{#if isTienda}}activo{{/if}}" href="/tienda">Tienda</a></li>
+            <li><a class="{{#if isContacto}}activo{{/if}}" href="/contacto">Contacto</a></li>
+        </ul>
+    </nav>
+     <main  class="holder"></main>
+    {{{body}}}
+      </main>
+    <footer>
+        <p>Diseñado por Sofia Noto - &copy;2022</p>
+    </footer>
+
+</body>
+
+</html>
