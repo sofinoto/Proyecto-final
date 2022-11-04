@@ -296,3 +296,21 @@ main h2{
     cursor: pointer;
 }
 /* fin contacto */
+
+.novedades p {
+    color: white;
+}
+
+.novedades h3 {
+    color: white;
+}
+
+
+.novedades h4 {
+    color: white;
+}
+
+.novedades {
+    margin-left: 20px;
+    margin-right: 20px;
+}
