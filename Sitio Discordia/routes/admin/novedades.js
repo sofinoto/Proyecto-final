@@ -4,12 +4,21 @@ var novedadesmodel = require('../../models/novedadesmodel');
 
 router.get('/', async function (req, res, next) {
 
-var novedades = await novedadesmodel.getNovedades();
-    
+//var novedades = await novedadesmodel.getNovedades();
+  
+var novedades
+if (req.query.q === undefined) {
+    novedades = await novedadesmodel.getNovedades();
+} else {
+    novedades =await novedadesmodel.buscarNovedades(req.query.q);
+}
+
     res.render('admin/novedades', {
         layout: 'admin/layout',
         usuario: req.session.nombre,
-        novedades
+        novedades,
+        is_search: req.query.q !== undefined,
+        q: req.query.q
     });
 });
 
